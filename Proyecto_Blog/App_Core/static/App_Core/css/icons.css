@@ -1,0 +1,33 @@
+
+/* ........................... App Core | icons ........................... 󰌜 */
+ 
+.icons { font-family: var(--fuente-iconos); }
+
+.small { font-size: 1.5rem; }
+
+.medium { font-size: 2rem; }
+
+.large { font-size: 3rem; }
+
+.white { color: var(--color-1); }
+
+.light-grey { color: var(--color-2); }
+
+.viridian { color: var(--color-5); }
+
+/* ------------------------------------------------------------------ icons 󰌜 */
+.menu::before { content: "󰍜"; }
+
+.whatsapp::before { content: ""; }
+
+.instagram::before { content: "󰋾"; }
+
+.facebook::before { content: "󰈌"; }
+
+.usuario::before { content: "  "; }
+
+.tag::before { content: "󰓹  "; }
+
+.comentario::before { content: "  "; }
+
+.comentario-enviado::before { content:"  󰧣"; }

@@ -1,0 +1,98 @@
+
+/* ......................... App Core | articulo .......................... 󰌜 */
+
+.articulo {
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+
+.texto-italico {
+    font-style: italic;
+}
+
+
+.texto-negrita {
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------- panel izquierdo 󰌜 */
+.articulo-l {
+    width: 75%;
+    margin-rignt: 40em;
+}
+
+.articulo-l-post {
+    margin: 1em 7em;
+}
+  
+.articulo-l-post__img {
+        display: block;
+        width: 100%;
+        margin: auto;
+        border-radius: 0.5em;
+}
+    
+.articulo-l-post__contenido {
+    text-wrap: pretty;
+    max-width: 100%;
+}
+
+.articulo-l-post__media {
+    width: 100%;
+}
+
+.articulo-l-post__media-bx {
+    display: block;
+    width: 70%;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+.video { aspect-ratio: 16/9; }
+
+.podcast { height: 3.5rem; background-color: transparent; }
+
+.articulo-l-comments {
+    margin: 2em auto;
+    width: 75%;
+    align-content: center;
+}
+
+.texto-comentario {
+    margin-left: 3.7em;
+}
+ 
+/* ---------------------------------------------------------- panel derecho 󰌜 */
+.articulo-r {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20em;
+    height: 100vh;
+    z-index: 20;
+    margin-top: 2.8em;
+    padding: 3em 1em;
+}
+
+.articulo-r__a {
+    display: block;
+    margin: 1.5em 0;
+}
+
+/* to-do🢂 agregar endpoints de mediaquerys */
+/* ................. mediaquerys | pantallas smartphones .................. 󰌜 */
+@media (width < 400px) {
+    
+    .articulo-r { display: none; }
+
+    .articulo-l { width: 100%; }
+
+    .articulo-l-post { margin-inline: 1rem; }
+ 
+    .articulo-l-post__media-bx { width: 100%; }
+
+    .comments { margin-inline: 1rem; }
+
+}
+

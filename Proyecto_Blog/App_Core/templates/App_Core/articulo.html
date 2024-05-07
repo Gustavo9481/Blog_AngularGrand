@@ -1,0 +1,161 @@
+{% extends 'App_Core/base.html' %}
+
+<!-- ............................. articulo ..............................  -->
+
+{% block title %}{{post.titulo}}{% endblock %}
+
+{% load static %}
+
+{% block css %}
+<link href="{% static 'App_Core/css/articulo.css' %}" rel="stylesheet">
+<link href="{% static 'App_Core/css/forms.css' %}" rel="stylesheet">
+{% endblock %}
+
+
+{% block content %}
+
+
+<section class="articulo">
+
+<!-- -------------------------------- panel izquierdo | contenido del post  -->
+    <div class="articulo-l">
+
+        <div class="articulo-l-post">
+
+            <h1>{{post.titulo}}</h1>
+
+            <p>
+                <spam class="icons tag"></spam>   {{post.etiqueta}}
+            </p>
+
+            <figure>
+
+            {% if post.portada %}
+                
+            <img src="{{post.portada.url}}" 
+                loading="lazy" class="articulo-l-post__img">
+                
+            {% else %}
+                
+            <p>---no hay imagen registrada---</p>
+                
+            {% endif %}
+
+            </figure>
+
+            <p class="texto-italico">{{post.introduccion}}</p>
+            
+            <br>
+            
+            <p class="articulo-l-post__contenido">{{post.contenido|safe}}</p>  
+            <!--🠶 01 -->
+            
+            <br>
+            
+            {% if post.video %}
+            
+            <div class="articulo-l-post__media">
+                <iframe src="{{post.video}}" loading="lazy" 
+                    class="articulo-l-post__media-bx video">
+                </iframe>
+            </div>
+            
+            {% else %}
+            
+            <p>--no hay video--</p>
+            
+            {% endif %}
+
+            <br>
+
+            {% if post.podcast %}
+            
+            <div class="articulo-l-post__media">
+                <iframe src="{{post.podcast}}" 
+                    class="articulo-l-post__media-bx podcast">
+                </iframe>
+            </div>
+
+            {% else %}
+            
+            <p>--no hay audio--</p>
+            
+            {% endif %}
+         
+            <p>{{post.autor}} | 
+                <span class="texto-small">{{post.fecha}}</span>
+            </p>
+            
+            <br>
+
+
+
+            <!-- ........................ comentarios del artículo  -->
+            <div class="articulo-l-comments comments">
+        
+                {% for comentario in comentarios %}
+                
+                <p>
+                    <span class="icons usuario large viridian"></span>  
+                    <span class="texto-negrita">{{comentario.nombre}}</span> | 
+                    <span class="texto-small">{{comentario.email}}</span>     
+                </p>
+
+                <p class="texto-comentario">{{comentario.comentario}}</p>
+
+                <br>
+                
+                {% endfor %}
+
+            </div>
+
+
+
+            <!-- ........................ formulario de comentario  -->
+            <div class="articulo-l-comments">
+
+                <h2>Hazme un comentario! 
+                    <span class="icons comentario"></span>
+                </h2>
+
+                <form action="" method="post" class="forms-comentario">
+
+                    {% csrf_token %}
+
+                    {{form}}
+
+                    <button type="submit" class="boton">Enviar Comentario
+                        <span class="icons comentario-enviado small light-grey">
+                        </span>
+                    </button>
+                    
+                    {{mensaje}}
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- ----------------------------------- panel derecho | menú de artículos  -->
+    <div class="articulo-r">
+
+        <h2>Artículos:</h2>
+
+        {% for art in posts_list %}
+        
+        <a href="{% url 'ARTICULO' titulo=art.titulo %}" class="articulo-r__a">
+        {{art.titulo}}
+        </a> 
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+
+{% endblock %}

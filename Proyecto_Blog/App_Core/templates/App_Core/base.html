@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<!-- ............................... base ................................  -->
+
+<html lang="es">
+
+    <head>
+        {% load static %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="{% static 'App_Core/img/AG-logo.ico' %}" type="image/x-icon">
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="description" content="Descripción breve de la página web">
+        <link href="{% static 'App_Core/css/styles.css' %}" rel="stylesheet">
+        <link href="{% static 'App_Core/css/icons.css' %}" rel="stylesheet">
+        <link href="{% static 'App_Core/css/base.css' %}" rel="stylesheet">
+        {% block css %}{% endblock %}   <!-- 01 -->
+    </head>
+
+    <body>
+
+
+
+        <!-- ........................................ menu top  -->
+        <nav class="base-mn">
+
+            <div class="base-mn-tp">
+
+                <div class="base-mn-tpbx">
+    
+                    <a href="{% url 'HOME' %}" 
+                        class="base-mn-tpbx__a {% if request.path == '/' %}current{% endif %}">
+                        Inicio
+                    </a>
+
+                    <a href="{% url 'SOBRE-MI' %}"
+                        class="base-mn-tpbx__a {% if request.path == '/sobre-mi/' %}current{% endif %}" >
+                        Sobre Mí
+                    </a>
+
+                    <a href="{% url 'MIS-FOTOS' %}" 
+                        class="base-mn-tpbx__a {% if request.path == '/mis-fotos/' %}current{% endif %}">
+                        Mis Fotos
+                    </a>
+
+                    <a href="{% url 'ARTICULOS_ALL' %}" 
+                        class="base-mn-tpbx__a {% if request.path == '/articulos_all/' %}current{% endif %}">
+                        Artículos
+                    </a>
+
+                    <a href="{% url 'CONTACTO' %}" 
+                        class="base-mn-tpbx__a {% if request.path == '/contacto/' %}current{% endif %}">
+                        Contáctame
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="base-mn-bt">
+                <div class=base-mn-btbx1>
+                    <div class="base-mn-btbx1a">
+                    <img src="{% static 'App_Core/img/AG-logo.svg'%}" alt="logo AngularGrand" class="base-mn-btbx1a__img">
+                    <p class="base-mn-btbx1a__p">Angular Grand</p>
+                    </div>
+                </div>
+                <button class="base-mn-bt__btn"><span class="icons menu large white"></span></button>
+                <div class="base-mn-btbx2">
+                
+                    <a href="{% url 'HOME' %}" 
+                        class="base-mn-btbx2__a {% if request.path == '/' %}current{% endif %}">
+                        Inicio
+                    </a>
+
+                    <a href="{% url 'SOBRE-MI' %}"
+                        class="base-mn-btbx2__a {% if request.path == '/sobre-mi/' %}current{% endif %}" >
+                        Sobre Mí
+                    </a>
+
+                    <a href="{% url 'MIS-FOTOS' %}" 
+                        class="base-mn-btbx2__a {% if request.path == '/mis-fotos/' %}current{% endif %}">
+                        Mis Fotos
+                    </a>
+
+                    <a href="{% url 'ARTICULOS_ALL' %}" 
+                        class="base-mn-btbx2__a {% if request.path == '/articulos_all/' %}current{% endif %}">
+                        Artículos
+                    </a>
+
+                    <a href="{% url 'CONTACTO' %}" 
+                        class="base-mn-btbx2__a {% if request.path == '/contacto/' %}current{% endif %}">
+                        Contáctame
+                    </a>
+
+                </div>
+            </div>
+
+        </nav>
+
+
+
+        {% block content %}
+        
+        <!-- ......................... contenido de plantillas  -->
+
+        {% endblock %}
+
+
+ 
+        <!-- ...................................... menu redes  -->
+        <footer class="base-ft">
+
+            <nav class="base-ft-bx">
+
+                <button class="base-ft-bx__btn">
+                    <a href="https://www.tiktok.com/@angulargrand" target="_blank">
+                        <img src="{% static 'App_Core/img/tiktok-logo.svg' %}" alt="logo tiktok">
+                    </a>
+                </button>
+                <button class="base-ft-bx__btn">
+                    <a href="https://www.instagram.com/angulargrand/?hl=es" target="_blank">
+                        <img src="{% static 'App_Core/img/instagram-logo.svg' %}" alt="logo instagram">
+                    </a>
+                </button>
+                <button class="base-ft-bx__btn">
+                    <a>
+                        <img src="{% static 'App_Core/img/whatsapp-logo.svg' %}" alt="logo whatapp">
+                    </a>
+                </button>
+
+            </nav>    
+        </footer>
+
+
+
+    </body>
+
+</html>
+

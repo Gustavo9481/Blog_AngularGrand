@@ -1,0 +1,122 @@
+{% extends 'App_Core/base.html' %}
+
+<!-- ............................... home ................................  -->
+
+{% block title %}Angular Grand{% endblock %}
+
+{% load static %}
+
+{% block css %}
+<link href="{% static 'App_Core/css/home.css' %}" rel="stylesheet">
+<link href="{% static 'App_Core/css/tarjeta.css' %}" rel="stylesheet">
+
+{% endblock %}
+
+
+{% block content %}
+
+<!-- ............................... slide de imagenes  -->
+<div class="home-sld"> <!-- home-slider -->
+    
+    <figure class="home-sld-bx1">
+        <img src="{% static 'App_Core/img/AG-logo.svg'%}" 
+        alt="logo AngularGrand" class="home-sld-bx1__img">
+    </figure>
+
+    <ul class="home-sld-bx2">
+        
+        <li class="home-sld-bx2__li">
+            <img src="{% static 'App_Core/img/Blog_1.webp' %}" 
+            fetchpriority="high" class="home-sld-bx2__li-img">
+        </li>
+        
+        <li class="home-sld-bx2__li">
+            <img src="{% static 'App_Core/img/Blog_2.webp' %}" 
+            fetchpriority="high" class="home-sld-bx2__li-img">
+        </li>
+        
+        <li class="home-sld-bx2__li">
+            <img src="{% static 'App_Core/img/Blog_3.webp' %}" 
+            fetchpriority="high" class="home-sld-bx2__li-img">
+        </li>
+        
+        <li class="home-sld-bx2__li">
+            <img src="{% static 'App_Core/img/Blog_4.webp' %}" 
+            fetchpriority="high" class="home-sld-bx2__li-img">
+        </li>
+    
+    </ul>
+
+</div>
+
+<div class="intro">
+    <h2 class="intro__title">Blog de Fotografía, Viajes y Budismo</h2>
+    <p class="intro__paragraph">
+    Bienvenidos al mundo de Angular Grand, donde cada imagen es una ventana a una historia inédita y cada destino es un paso hacia el autodescubrimiento. Soy César Peña, fotógrafo y viajero incansable, capturando la esencia de los lugares más remotos y las culturas más vibrantes a través de mi lente.
+    <br><br>
+Mi pasión por la fotografía no es solo documentar lo que veo, sino tejer narrativas visuales que inspiren y conecten. Desde las montañas sagradas del Tíbet hasta los bulliciosos mercados de Marrakech, mis viajes son una búsqueda constante de la belleza en lo desconocido y un reflejo de mi camino en el budismo, donde cada foto es un ejercicio de mindfulness y cada serie, una lección de vida.
+<br><br>
+Con Angular Grand, invito a todos a unirse en este viaje de exploración y autodesarrollo, donde las historias se cuentan no solo con palabras, sino con el poder evocador de la imagen.
+    </p>
+    <h3 class="intro__signature">Cesar Peña</h3>
+</div>
+
+<!-- ........................... tarjetas de artículos  -->
+<h3 class="tarjeta__title">Mis Artículos</h3>
+
+<section class="tarjeta-cards">
+ 
+    {% for post in page_obj %}
+    
+    <div class="tarjeta-cards-bx1">
+        <figure>
+            {% if post.portada %}
+            <a href="{% url 'ARTICULO' titulo=post.titulo %}">
+                <img src="{{post.portada.url}}" loading="lazy" class="tarjeta-cards-img">
+            </a>
+            {% else %}
+            <p>---no hay imagen registrada---</p>
+            {% endif %}
+        </figure>
+        <div class="tarjeta-cards-bx1__a">
+            <a href="{% url 'ARTICULO' titulo=post.titulo %}">{{post.titulo}}</a>
+            <!--🠶 01 articulos_all -->
+        </div>
+            <a href="{% url 'ARTICULO' titulo=post.titulo %}">
+                <p class="tarjeta-cards-bx1__p">{{post.introduccion}}</p>
+            </a>
+    </div>
+
+    {% endfor %}
+
+</section>
+
+<section class="tarjeta-pages">
+
+    <span class="texto-small">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; Primera</a>
+            <span> | </span>
+            <a href="?page={{ page_obj.previous_page_number }}">Anterior</a>
+        {% endif %}
+    </span>
+
+    <span> 
+        Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}.
+    </span>
+    
+    <span class="texto-small">
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">Siguiente</a>
+            <span> | </span>
+            <a href="?page={{ page_obj.paginator.num_pages }}">Última &raquo;</a>
+        {% endif %}
+    </span>
+
+</section>
+
+
+
+{% endblock %}
+
+

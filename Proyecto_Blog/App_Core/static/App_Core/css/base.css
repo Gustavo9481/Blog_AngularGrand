@@ -1,0 +1,155 @@
+
+/* ........................... App Core | base ............................ 󰌜 */
+
+
+/* ------------------------------------------ menu top | secciones del blog 󰌜 */
+
+.base__title {
+    font-size: 2rem;
+    margin: 2rem 8.6rem;
+}
+
+
+.base__parrafo {
+    margin: 2rem 8.6rem;
+}
+
+.base-mn {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    background-color: transparent;
+}
+
+.base-mn-tp {
+    width: 100%;
+    height: 3rem;
+    padding: 0.7rem;
+    display: inline-block;
+    background-color: var(--color-5);
+}
+
+.base-mn-tpbx {
+    display: flex;
+    color: var(--color-2);
+    justify-content: right;
+    align-items: center;
+}
+
+.base-mn-tpbx__a { padding-inline: 1rem; }
+    
+.current { color: var(--color-1) !important; }
+
+
+
+/* ------------------------ menu dropdown | menu para pantallas smartphones 󰌜 */
+.base-mn-bt {
+    display:none;
+    position: relative;
+    width: 100%;
+    background-color: var(--color-5);
+}
+
+.base-mn-btbx1 {
+    display: inline-block;
+    width: 80%;
+}
+
+.base-mn-btbx1a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.base-mn-btbx1a__p {
+    display: inline-block;
+    color: var(--color-2);
+    width: 50%;
+    margin-left: 0.5rem;
+}
+
+.base-mn-bt__btn {
+    display: inline-block;
+    width: 20%;
+    color: var(--color-2);
+    z-index: 6;
+}
+
+.base-mn-btbx2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5rem 0;
+    padding: 1rem;
+    background-color: var(--color-5);
+    width: 100%;
+    z-index: 200;
+}
+
+.base-mn-btbx2__a {
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem;
+    color: var(--color-2);   
+}
+
+.base-mn-bt:hover .base-mn-btbx2 { display:block; }
+
+
+
+/* ------------------------------------------- menu footer | redes sociales 󰌜 */
+.base-ft {
+    position: absolute;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+.base-ft-bx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.base-ft-bx__btn {
+    border-radius: 100%;
+    padding: 0.7rem;
+    background-color: var(--color-4) !important;
+    margin-inline: 1rem;
+    transition: up .2s ease-in-out;
+}
+
+.base-ft-bx__btn:hover {
+    transition: padding(1rem);
+}
+
+/* to-do🢂 agregar endponits de mediaquerys */
+/* ................. mediaquerys | pantallas smartphones .................. 󰌜 */
+@media (width < 400px) {
+
+    .base-mn-tp { display: none; }
+    
+    .base-mn-bt {
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        padding-inline: 1rem;
+    }
+
+    .base-mn-btbx1a__img {
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+    }
+}

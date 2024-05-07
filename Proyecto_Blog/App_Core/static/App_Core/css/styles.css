@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* .......... Angular Grand - proyecto Blog | estilos generales ........... 󰌜 */
+/* fuentes tipográficas | vriables globales | reset css */
+/* consulta de comentarios -> Proyecto_Blog/comentarios.md*/
+
+
+/* --------------------------------------------------- fuentes tipográficas 󰌜 */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Fuentes/Montserrat-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('Fuentes/NotoSans.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('Fuentes/FiraCodeNerdFont-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shalimar';
+    src: url('Fuentes/Shalimar-Regular.woff') format('woff');
+    font-display: swap;
+}
+
+
+
+/* ----------------------------------------------------- variables globales 󰌜 */
+
+:root {
+
+    /* paleta de colores */
+    --color-1: lch(100 0 0);                        /* blanco         #ffffff */
+    --color-2: lch(90.59 0 0);                      /* gris claro     #E4E4E4 */
+    --color-3: lch(25.23 7.71 286.6);               /* grafito        #3B3B47 */
+    --color-4: lch(0 0 0);                          /* negro          #000000 */
+    --color-5: lch(54.18 34.35 201.29);             /* verde viridian #009196 */
+    --color-6: lch(43.52 72.04 28.07);              /* frambuesa      #C51D34 */
+    --color-7: lch(46.74 42.1 309.58);              /* jacinto        #865FA6 */
+    --opacidad-1: 0.5;
+    --opacidad-2: 0.6;
+
+    /* fuentes */
+    --fuente-titulos: 'Montserrat';                         /* fuente títulos */
+    --fuente-textos: 'NotoSans';                            /* fuente textos  */
+    --fuente-iconos: 'Fira Code';                           /* fuente iconos  */
+    --fuente-firma: 'Shalimar';                             /* fuente firma   */
+
+}
+
+
+
+/* -------------------------------------------------------------- reset css 󰌜 */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 0;
+    scroll-behavior: smooth;
+    font-family: var(--fuente-textos);
+    color: var(--color-3);
+-ms-touch-action: manipulation;
+        touch-action: manipulation;
+}
+
+::-moz-selection {                                                    /* 🠶 01 */
+    background-color: var(--color-4); 
+    color: var(--color-2); 
+}
+
+::selection {                                                         /* 🠶 01 */
+    background-color: var(--color-4); 
+    color: var(--color-2); 
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: 2.8em;
+    padding-bottom: 7em;
+    background-color: var(--color-2);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {                                             /* 🠶 02 */
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {                                       /* 🠶 02 */
+    background-color: var(--color-3);
+    border-radius: 9999px;
+}
+
+body::-webkit-scrollbar-track {                                       /* 🠶 02 */
+    background: -webkit-gradient(
+        linear, 
+        left bottom, left top, 
+        from(rgba(59,59,71,0.6)), 
+        color-stop(20%, rgba(134,95,166,0.35)), 
+        color-stop(50%, rgba(255,255,255,0.5011338519782913)), 
+        color-stop(80%, rgba(134,95,166,0.35)), 
+        to(rgba(59,59,71,0.6)));
+    background: linear-gradient(
+        0deg, 
+        rgba(59,59,71,0.6) 0%, 
+        rgba(134,95,166,0.35) 20%, 
+        rgba(255,255,255,0.5011338519782913) 50%, 
+        rgba(134,95,166,0.35) 80%, 
+        rgba(59,59,71,0.6) 100%);
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, strong, blockquote, i, b, u, em { 
+    overflow-wrap: break-word; 
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    text-wrap: balance;
+    color: inherit;
+    letter-spacing: 0.065em;
+}
+
+p {  
+    text-wrap: pretty; 
+}
+
+a { 
+    display: block; 
+    background-color: transparent; 
+}
+
+p a { display: inline; }
+
+ul, li { list-style-type: none; }
+
+/* formularios */
+form, input, button, textarea, select, label { 
+    display: block;
+    font: inherit;
+    color: inherit;
+    background-color: transparent; 
+}
+
+/* recursos multimedia */
+img, picture, video, canvas, svg, frame, figure {
+    display: block;
+    width: 100%;
+}
+
+svg { 
+    fill: currentcolor; 
+}
+
+.titulo {
+    font-family: var(--fuente-titulos);
+    font-weight: lighter;
+    font-size: 3em;
+}
+
+.texto-small {
+    font-size: 0.8em;
+}
+
+
+/* to-do🢂 agregar endpoints de mediaquerys */
+/* ------------------------------------ mediaquerys | smartphones y tablets 󰌜 */
+@media screen and (max-width: 600px) {
+    body {
+        padding-top: 3.5rem;
+    }
+}

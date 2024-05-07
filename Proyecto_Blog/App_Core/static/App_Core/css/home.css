@@ -1,0 +1,117 @@
+
+/* ........................... App Core | home ............................ 󰌜 */
+
+.home-sld {
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    place-content: center;
+}
+
+.home-sld-bx1 {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    top: 6%;
+    text-align: center;
+    animation: rotacion 20s ease-in-out infinite;
+}
+
+@keyframes rotacion {
+    0% { transform: rotate(-360deg);}
+    25% { transform: rotate(0deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.home-sld-bx1__img { 
+    width: 20rem; margin-inline: auto; 
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.3));
+}
+
+.home-sld-bx2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 400%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: slide 20s infinite alternate ease-in-out;
+            animation: slide 20s infinite alternate ease-in-out;
+     -webkit-box-pack: center;
+        -ms-flex-pack: center;
+    -webkit-box-align: center;
+       -ms-flex-align: center;
+}
+
+.home-sld-bx2__li { width: 100%; }
+    
+.home-sld-bx2__li-img {
+    height: 100%;
+    -o-object-fit: fill;
+       object-fit: fill
+}
+
+
+@-webkit-keyframes slide {
+    0% { margin-left: 0%;}
+    20% { margin-left:0%; }
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
+@keyframes slide {
+    0% { margin-left: 0%;}
+    20% { margin-left:0%; }
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
+.intro {
+    margin: 2rem 8.6rem;
+}
+
+.intro__title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.intro__paragraph {
+    margin-top: 2rem;
+    text-wrap: pretty;
+}
+
+.intro__signature {
+    margin-top: 2rem;
+    font-family: var(--fuente-firma);
+    font-size: 4rem;
+    text-align: right;
+}
+
+
+/* to-do🢂 agregar endpoints de mediaquerys */
+/* ............................. mediaquerys .............................. 󰌜 */
+@media screen and (max-width: 600px) {
+
+    .intro { margin: 1rem 1rem;}
+
+    .intro__signature { font-size: 2rem; text-align: center; }
+
+    .home-sld { margin-top: 0; }
+
+    .home-sld-bx1__img { display: none; }
+
+    .home-sld-bx2__li-img { width: auto; }
+}

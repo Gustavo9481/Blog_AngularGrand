@@ -1,0 +1,46 @@
+{% extends 'App_Core/base.html' %}
+
+<!-- ............................. contacto ..............................  -->
+
+{% block title %}Contacto{% endblock %}
+
+{% load static %}
+
+{% block css %}
+<link href="{% static 'App_Core/css/forms.css' %}" rel="stylesheet">
+{% endblock %}
+
+
+{% block content %}
+
+
+<section class="forms-contacto">
+<!-- .......................... formulario de contacto  -->
+<div class="forms-cont">
+
+    <h1 class="forms-cont-titulo">Contactame!!</h1>
+
+    <div class="forms-cont-left">
+
+            <form action="" method="post">
+
+                {% csrf_token %}
+
+                {{form}}
+                <br>
+                <button class="boton forms-cont-left-button" type="submit">
+                    Enviar Mensaje
+                </button>
+                {{mensaje}}
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+{% endblock %}

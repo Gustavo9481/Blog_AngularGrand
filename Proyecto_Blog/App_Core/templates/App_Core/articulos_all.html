@@ -1,0 +1,82 @@
+{% extends 'App_Core/base.html' %}
+
+<!-- ........................... articulos_all ...........................  -->
+
+{% block title %}Artículos{% endblock %}
+
+{% load static %}
+
+{% block css %}
+<link href="{% static 'App_Core/css/tarjeta.css' %}" rel="stylesheet">
+{% endblock %}
+
+
+{% block content %}
+
+<h1 class="base__title">Artículos de fotografía y Budismo</h1>
+
+<p class="base__parrafo">
+Esta es la colección de mis artículos, por favor déjame un comentario de cómo te ha parecido, 
+lo apreciaría mucho.<br><br>Gracias por leer !!.
+</p>
+
+<section class="tarjeta-cards">
+
+    {% for post in page_obj %}
+    
+    <div class="tarjeta-cards-bx1">
+        <figure>
+            {% if post.portada %}
+            <a href="{% url 'ARTICULO' titulo=post.titulo %}">
+                <img src="{{post.portada.url}}" loading="lazy" class="tarjeta-cards-img">
+            </a>
+            {% else %}
+            <p>---no hay imagen registrada---</p>
+            {% endif %}
+        </figure>
+        <div class="tarjeta-cards-bx1__a">
+            <a href="{% url 'ARTICULO' titulo=post.titulo %}">{{post.titulo}}</a>   
+            <!--🠶 01 -->
+        </div>
+            <a href="{% url 'ARTICULO' titulo=post.titulo %}">
+                <p class="tarjeta-cards-bx1__p">{{post.introduccion}}</p>
+            </a>
+    </div>
+
+    {% endfor %}
+
+</section>
+
+<section class="tarjeta-pages">
+
+    <span class="texto-small">
+            
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; Primera</a>
+            <span> | </span>
+            <a href="?page={{ page_obj.previous_page_number }}">Anterior</a>
+        {% endif %}
+
+    </span>
+
+
+    <span>
+        Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}.
+    </span>
+    
+
+    <span class="texto-small">
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">Siguiente</a>
+            <span> | </span>
+            <a href="?page={{ page_obj.paginator.num_pages }}">Última &raquo;</a>
+        {% endif %}
+
+    </span>
+
+</section>
+
+{% endblock %}
+
+
