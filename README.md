@@ -35,15 +35,15 @@ Todas los registros son modificables por el Administrador, estos podrán ser:
 
 ### Carga de Videos en artículos desde Youtube
 Los videos pueden ser directamente incrustados desde youtube usando el siguiente procedimiento:
-1- Ubicar el video deseado en youtube.com y debajo en las opciones del video presionar *Compartir* 
-2- En el submenú de *Compartir*, seleccionaremos el ícono **<>** que nos dará el código html para 
+* 1- Ubicar el video deseado en youtube.com y debajo en las opciones del video presionar *Compartir* 
+* 2- En el submenú de *Compartir*, seleccionaremos el ícono **<>** que nos dará el código html para 
 embeber el frame con el video.
-3 - De dicho código tomaremos sólo el siguiente fragmento *https://www.youtube.com/embed/xxxxxxxxxx?si=xxxxxxxxxxx*
+* 3 - De dicho código tomaremos sólo el siguiente fragmento *https://www.youtube.com/embed/xxxxxxxxxx?si=xxxxxxxxxxx*
 Para todos los videos el código aquí identificado con xxxxxxxxxxx es distinto.
-4- Este fragmente es el que debemos ingresar en el campo video del panel de Administración del Blog
+* 4- Este fragmente es el que debemos ingresar en el campo video del panel de Administración del Blog
 para agregar un video al artículo.
-5- Despues de ingresado todo el contenido del Post(articulo), presionamos *Guardar* abajo a la derecha.
-6- Podremos verificar que los cambios se han realizado y el Post se carga correctamente, visitando el 
+* 5- Despues de ingresado todo el contenido del Post(articulo), presionamos *Guardar* abajo a la derecha.
+* 6- Podremos verificar que los cambios se han realizado y el Post se carga correctamente, visitando el 
 sitio y la dirección correspondiente al artículo. Si se necesitan hacer modificaciones, podremos dirigirnos
 nuevamente al Panel de Administración -> Sección Post -> seleccionar de la lista el post que se quiere modificar.
 
@@ -52,22 +52,20 @@ nuevamente al Panel de Administración -> Sección Post -> seleccionar de la lis
 En los artículos se pueden cargar audios(podcast) que profundicen más el tema o den una mejor experiencia
 y entendimiento al visitante. Para cargar audios almacenados en Drive debemos seguir el siguiente
 procedimiento:
-1- Previamente, al audio debe estar almacenado en una cuenta Google Drive de la cual d¿se tenga acceso
+* 1- Previamente, al audio debe estar almacenado en una cuenta Google Drive de la cual d¿se tenga acceso
 y permiso de editor, una cuenta propia preferiblemente.Este audio debe ser en formato **mp3** y previamente 
 editado como desee el Administrador.
-2- Ubicando el archivo, abrirlo. Drive mostrará una vista previa y reproducirá el audio, acá solicitaremos
+* 2- Ubicando el archivo, abrirlo. Drive mostrará una vista previa y reproducirá el audio, acá solicitaremos
 abrir el archivo en una nueva pestaña ingresando el el menú de tres puntos **󰇙** arriba a la derecha.
-3- El audio abrirá en una nueva pestaña y desde aquí es que copiaremos la dirección url que será parecida
+* 3- El audio abrirá en una nueva pestaña y desde aquí es que copiaremos la dirección url que será parecida
 a la siguiente: https://drive.google.com/file/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxx/view, las x representan el id 
 único del archivo, este varía de archivo en archivo.
-4- Cambiaremos la última palabra **view** por **preview** quedando así:
+* 4- Cambiaremos la última palabra **view** por **preview** quedando así:
 **https://drive.google.com/file/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxx/preview**.
-5- Este será el link que se podrá ingresar en el Panel de Administración en la sección de nuevo Post.
-6- Despues de ingresado todo el contenido del Post(articulo), presionamos *Guardar* abajo a la derecha.
-7- Podremos verificar que los cambios se han realizado y el Post se carga correctamente, visitando el 
+* 5- Este será el link que se podrá ingresar en el Panel de Administración en la sección de nuevo Post.
+* 6- Despues de ingresado todo el contenido del Post(articulo), presionamos *Guardar* abajo a la derecha.
+* 7- Podremos verificar que los cambios se han realizado y el Post se carga correctamente, visitando el 
 sitio y la dirección correspondiente al artículo. Si se necesitan hacer modificaciones, podremos dirigirnos
 nuevamente al Panel de Administración -> Sección Post -> seleccionar de la lista el post que se quiere modificar.
 
----
----
 
