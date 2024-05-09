@@ -2,6 +2,10 @@
 Proyecto Blog | Python - Django
 ![Diagrama de Uso](Blog_Angulargrand.png)
 
+<div style="{ display: flex; justify-content: center; align-content: center;}">
+<img src='Blog_Angulargrand.png' alt="diagrama de uso"> 
+</div>
+
 Contenido:
 
 * Publicación de nuevo Post (Artículo)
