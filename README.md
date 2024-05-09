@@ -10,7 +10,7 @@ Contenido:
 * Publicación de nuevo Post (Artículo)
     * Carga de Videos en artículos desde Youtube
     * Carga de audios para podcast desde Google Drivre
-* [Índice de Comentarios del código][./comentarios.md]
+* [Índice de Comentarios del código](./comentarios.md)
 
 
 ---
