@@ -2,8 +2,8 @@
 Proyecto Blog | Python - Django
 
 <div style="text-align:center">
-<img src="/Proyecto_Blog/App_Core/static/App_Core/css/AG-logo.svg" 
-   alt="Diagrama de uso" width="500" hight="450" style="background-color:white; border-radius: 5px;"/>
+<img src="Proyecto_Blog/App_Core/static/App_Core/css/AG-logo.svg" 
+   alt="Logo Agular Grand" width="500" hight="450" style="background-color:white; border-radius: 5px;"/>
 </div>
 
 Contenido:
