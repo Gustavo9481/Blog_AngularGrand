@@ -14,7 +14,6 @@ urlpatterns = [
         path('articulos_all/', views.articulos_all, name="ARTICULOS_ALL"),
         path('contacto/', views.contacto, name="CONTACTO"),
         path('sobre-mi/', views.sobre_mi, name="SOBRE-MI"),
-        path('mis-fotos/', views.mis_fotos, name="MIS-FOTOS"),
 ]
 
 if settings.DEBUG:                                                        # 🠶 01

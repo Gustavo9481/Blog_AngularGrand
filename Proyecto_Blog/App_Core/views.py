@@ -97,22 +97,6 @@ def sobre_mi(request: HttpRequest) -> HttpResponse:
 
 
 
-# ---------------------------------------------------------- vista | mis_fotos 󰌠
-def mis_fotos(request: HttpRequest) -> HttpResponse:
-    '''
-    Página Mis Fotos - Galería de fotos, muestra del trabajo del admin.
-
-    Parameters:
-    request (HttpRequest): solicitud HTTP recibida.
-
-    Returns:
-    HttpResponse: respuesta HTTP que renderiza la galería de fotos.
-    '''
-    
-    return render(request, 'App_Core/mis_fotos.html')
-
-
-
 # ----------------------------------------------------------- vista | artículo 󰌠
 def articulo(request: HttpRequest, titulo: str) -> HttpResponse:
     '''
