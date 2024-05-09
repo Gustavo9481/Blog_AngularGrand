@@ -1,7 +1,7 @@
 # Índice de Comentarios
 
 
-### 󰉋 Proyecto Blog
+### 🖿 Proyecto Blog
 
 `settings.py` 
 * 🠶 01 - carga de variables de entorno (dotenv)
@@ -13,7 +13,7 @@
 
 ---
 
-### 󰉋 App Core
+### 🖿 App Core
 
 `views.py` 
 Funciones de vistas de aplicación
