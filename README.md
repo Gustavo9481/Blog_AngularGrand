@@ -2,7 +2,7 @@
 Proyecto Blog | Python - Django
 
 <div style="text-align:center">
-<img src="Blog_AngularGrandsvg.svg" alt="Diagrama de uso" width="100" style="background-color:white"/>
+<img src="Blog_AngularGrandsvg.svg" alt="Diagrama de uso" width="100" style="background-color:white; border-radius: 5px;"/>
 </div>
 
 Contenido:
