@@ -1,9 +1,9 @@
 # Angular Grand - Documentación
 Proyecto Blog | Python - Django
-![Diagrama de Uso](Blog_Angulargrand.png)
+![Diagrama de Uso](Blog_Angulargrandsvg.png)
 
 <div style="{ display: flex; justify-content: center; align-content: center;}">
-<img src='Blog_Angulargrand.png' alt="diagrama de uso"> 
+<img src='Blog_Angulargrandsvg.png' alt="diagrama de uso"> 
 </div>
 
 Contenido:
