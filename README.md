@@ -4,7 +4,6 @@ Proyecto Blog | Python - Django
 <div style="text-align:center">
 <img src="Blog_Angulargrandsvg.svg" alt="Diagrama de uso" width="100" style="background-color:white"/>
 </div>
-<div style="text-align:center">
 
 Contenido:
 
