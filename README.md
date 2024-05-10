@@ -1,22 +1,27 @@
 # Angular Grand - Documentación
 Proyecto Blog | Python - Django<br>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+
 
 <div style="text-align:center">
 <img src="Proyecto_Blog/App_Core/static/App_Core/img/AG-logo.svg" alt="Logo Agular Grand" width="300" hight="300"/>
 </div>
 
-Contenido:
+## Contenido:
 
 * Publicación de nuevo Post (Artículo)
-    * Carga de Videos en artículos desde Youtube
-    * Carga de audios para podcast desde Google Drivre
+    * [Carga de Videos en artículos desde Youtube](#Carga de Videos en artículos desde Youtube)
+    * [Carga de audios para podcast desde Google Drivre](#Carga de audios para podcast desde Google Drivre)
 * [Índice de Comentarios del código](./comentarios.md)
 
 
----
+
 ---
 ## Publicación de nuevo Post (Artículo)
 Para la publicaciṕn de un nuevo artículo, el Administrador(propietario) debe ingresar con sus
