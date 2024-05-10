@@ -12,10 +12,10 @@ Gustavo Colmenares [GUScode] | [código del proyecto](https://github.com/Gustavo
 
 <div style="text-align:center">
 <img src="Proyecto_Blog/App_Core/static/App_Core/img/AG-logo.svg" alt="Logo Agular Grand" width="300" hight="300"/>
-<br>
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/Gustavo9481/Portafolio)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/gustavo-colmenares-guscode//)  
 </div>
+
 <br>
+
 ## Contenido:
 
 * Publicación de nuevo Post (Artículo)
@@ -78,5 +78,6 @@ a la siguiente: https://drive.google.com/file/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxx/vi
 * 7- Podremos verificar que los cambios se han realizado y el Post se carga correctamente, visitando el 
 sitio y la dirección correspondiente al artículo. Si se necesitan hacer modificaciones, podremos dirigirnos
 nuevamente al Panel de Administración -> Sección Post -> seleccionar de la lista el post que se quiere modificar.
-
+<br>
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/Gustavo9481/Portafolio)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/gustavo-colmenares-guscode//)  
 
