@@ -1,5 +1,6 @@
-# Angular Grand - Documentación
-Gustavo Colmenares [GUScode] | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) [código del proyecto](https://github.com/Gustavo9481/Blog_AngularGrand)<br>
+# Documentación
+Gustavo Colmenares [GUScode] | [código del proyecto](https://github.com/Gustavo9481/Blog_AngularGrand)<br><br>
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
