@@ -12,11 +12,9 @@ Gustavo Colmenares [GUScode] | [código del proyecto](https://github.com/Gustavo
 
 <div style="text-align:center">
 <img src="Proyecto_Blog/App_Core/static/App_Core/img/AG-logo.svg" alt="Logo Agular Grand" width="300" hight="300"/>
-</div>
-
 <br>
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/Gustavo9481/Portafolio)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/gustavo-colmenares-guscode//)  
-
+</div>
 <br>
 ## Contenido:
 
