@@ -1,10 +1,10 @@
-<h1 align="center">Blog Angular Grand<h1>
+<h1 align="center">Blog Angular Grand</h1>
 
 Aplicación web de Blog elaborada bajo el framewok de Python Django
 <p align="center">
 <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
 </p>
-Gustavo Colmenares [GUScode] | [código del proyecto](https://github.com/Gustavo9481/Blog_AngularGrand)<br><br>
+[código del proyecto](https://github.com/Gustavo9481/Blog_AngularGrand)<br><br>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
