@@ -1,4 +1,4 @@
-# Documentación
+# Blog Angular Grand
 Gustavo Colmenares [GUScode] | [código del proyecto](https://github.com/Gustavo9481/Blog_AngularGrand)<br><br>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)

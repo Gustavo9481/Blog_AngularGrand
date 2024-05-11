@@ -1,5 +1,5 @@
 # Crear nuevos Post o Artículos
-
+[volver a home](../README.md)
 A continuación se detallan los procesos que debe aplicar el Administrador
 para crear nuevos artículos en el blog.
 
@@ -19,7 +19,7 @@ En el meú de la izquierda se encontrarán las opciones:
 
 
 <div style="text-align:center">
-<img src="./Documentacion/doc-img/menu-panel.png" alt="menu panel" width="250" hight="300"/>
+<img src="./doc-img/menu-panel.png" alt="menu panel" width="250" hight="300"/>
 </div>
 
 * Comentarios  -> listado general de Comentarios de los visitantes en los artículos
@@ -36,8 +36,8 @@ líneas, etc.
 * Introducción: breve antesala al artículo (máx 200 carácteres).
 * Contenido: extensión del artículo -> ckeditor.
 * Portada: imagen de presentación del post -> carga de archivo .webp.
-* Video: link de video referente al artículo o material complementario, consultar:[carga de videos](### Carga de Videos en artículos desde Youtube).
-* Podcast: audio referente o material complementario del artículo, consultar:[carga de podcast](### Carga de audios para podcast desde Google Drivre).
+* Video: link de video referente al artículo o material complementario.
+* Podcast: audio referente o material complementario del artículo.
 * Autor: nombre del creador del artículo.
 * Fecha: fecha de creación -> se genera automáticamente.
 
@@ -78,3 +78,5 @@ a la siguiente: https://drive.google.com/file/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxx/vi
 sitio y la dirección correspondiente al artículo. Si se necesitan hacer modificaciones, podremos dirigirnos
 nuevamente al Panel de Administración -> Sección Post -> seleccionar de la lista el post que se quiere modificar.
 
+
+[volver a home](../README.md)

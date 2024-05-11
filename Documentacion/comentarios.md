@@ -1,5 +1,5 @@
 # Índice de Comentarios
-
+[volver a home](../README.md)
 
 ### 🖿 Proyecto Blog
 
@@ -76,3 +76,5 @@ Estilos generales, fuentes, variables globales, reset css, paleta de colores
 `articulos_all`
 * 🠶 01 - Valor dinámico para el parámetro de una url, tomando el valor de un registro, esto permite una única plantilla html y url para todos los artículos existentes y que el visitante clickee.
 
+
+[volver a home](../README.md)
