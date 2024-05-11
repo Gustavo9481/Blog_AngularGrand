@@ -38,7 +38,18 @@ con la narrativa de viajes y la introspección del budismo.
 * [Crear nuevos Post o Artículos](./Documentacion/post.md)
 * [Índice de Comentarios del código](./Documentacion/comentarios.md)
 
-
+## Requerimientos
+| módulo | versión |
+| --- | --- |
+| Django | 5.0.2 |
+| django-admin-interface | 0.28.6 |
+| django-colorfield | 0.11.0 |
+| ngrok | 1.2.0 |
+| pillow | 10.2.0 |
+| python-dotenv | 1.0.1 |
+| python-slugify | 8.0.4 |
+| sqlparse | 0.4.4 |
+| text-unidecode | 1.3 |
 
 ---
 Gustavo Colmenares | GUScode.-
