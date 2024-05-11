@@ -49,10 +49,9 @@ líneas, etc.
 <img src="./doc-img/formulario_panel_3.png" alt="formulario Post 3ra parte" width="700"/>
 </div>
 * Portada: imagen de presentación del post -> carga de archivo .webp.
-* Video: link de video referente al artículo o material complementario.(campo opcional)
-* Podcast: audio referente o material complementario del artículo. (campo opcional)
-* Autor: nombre del creador del artículo.
-* Fecha: fecha de creación -> se genera automáticamente.
+* Video: link de video referente al artículo o material complementario.(campo opcional). [cargar videos](###Carga-de-Videos-en-artículos-desde-Youtube).
+* Podcast: audio referente o material complementario del artículo. (campo opcional). [cargar audios](###Carga-de-audios-para-podcast-desde-Google-Drive)
+* Autor: nombre del creador del artículo. * Fecha: fecha de creación -> se genera automáticamente.
 
 Para guardar los cambios y publicar el artículo, presionamos **Guardar**.
 
@@ -73,7 +72,7 @@ sitio y la dirección correspondiente al artículo. Si se necesitan hacer modifi
 nuevamente al Panel de Administración -> Sección Post -> seleccionar de la lista el post que se quiere modificar.
 
 
-### Carga de audios para podcast desde Google Drivre
+### Carga de audios para podcast desde Google Drive
 En los artículos se pueden cargar audios(podcast) que profundicen más el tema o den una mejor experiencia
 y entendimiento al visitante. Para cargar audios almacenados en Drive debemos seguir el siguiente
 procedimiento:
