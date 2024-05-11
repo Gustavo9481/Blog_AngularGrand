@@ -17,7 +17,10 @@ credenciales de administrador a la dirección `http://angulargrand/admin/`, la c
 al Panel de Adminitración.
 En el meú de la izquierda se encontrarán las opciones:
 
-**<imagen de menu panel>**
+
+<div style="text-align:center">
+<img src="./Documentacion/doc-img/menu-panel.png" alt="menu panel" width="250" hight="300"/>
+</div>
 
 * Comentarios  -> listado general de Comentarios de los visitantes en los artículos
 * Contactos    -> Listado de visitantes y mensajes enviados al Administrador
