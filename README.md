@@ -79,6 +79,5 @@ a la siguiente: https://drive.google.com/file/d/xxxxxxxxxxxxxxxxxxxxxxxxxxxxx/vi
 sitio y la dirección correspondiente al artículo. Si se necesitan hacer modificaciones, podremos dirigirnos
 nuevamente al Panel de Administración -> Sección Post -> seleccionar de la lista el post que se quiere modificar.
 <br>
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Gustavo9481/Portafolio)  
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/gustavo-colmenares-guscode//)  
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://gustavo9481.github.io/Portafolio/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/gustavo-colmenares-guscode//)  
 
