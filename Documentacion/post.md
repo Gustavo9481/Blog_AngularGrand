@@ -30,7 +30,7 @@ tal cual será publicado, permitiendo dar estilos al texto, ingresar iconos, emo
 líneas, etc.
 
 <div style="text-align:center">
-<img src="./doc-img/formulario_panel_1.png.png" alt="formulario Post 1ra parte" width="700"/>
+<img src="./doc-img/formulario_panel_1.png" alt="formulario Post 1ra parte" width="700"/>
 </div>
 **<imagen de formulario Post del panel>**
 
@@ -40,13 +40,13 @@ líneas, etc.
 
 
 <div style="text-align:center">
-<img src="./doc-img/formulario_panel_2.png.png" alt="formulario Post 2da parte" width="700"/>
+<img src="./doc-img/formulario_panel_2.png" alt="formulario Post 2da parte" width="700"/>
 </div>
 * Contenido: extensión del artículo -> ckeditor.
 
 
 <div style="text-align:center">
-<img src="./doc-img/formulario_panel_3.png.png" alt="formulario Post 3ra parte" width="700"/>
+<img src="./doc-img/formulario_panel_3.png" alt="formulario Post 3ra parte" width="700"/>
 </div>
 * Portada: imagen de presentación del post -> carga de archivo .webp.
 * Video: link de video referente al artículo o material complementario.(campo opcional)
