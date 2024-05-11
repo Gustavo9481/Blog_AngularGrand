@@ -39,17 +39,49 @@ con la narrativa de viajes y la introspección del budismo.
 * [Índice de Comentarios del código](./Documentacion/comentarios.md)
 
 ## Requerimientos
-| módulo | versión |
-| --- | --- |
-| Django | 5.0.2 |
-| django-admin-interface | 0.28.6 |
-| django-colorfield | 0.11.0 |
-| ngrok | 1.2.0 |
-| pillow | 10.2.0 |
-| python-dotenv | 1.0.1 |
-| python-slugify | 8.0.4 |
-| sqlparse | 0.4.4 |
-| text-unidecode | 1.3 |
+<table>
+  <tr>
+    <th>módulo</th>
+    <th>versión</th>
+  </tr>
+  <tr>
+    <td>Django</td>
+    <td>5.0.2</td>
+  </tr>
+  <tr>
+    <td>django-admin-interface</td>
+    <td>0.28.6</td>
+  </tr>
+  <tr>
+    <td>django-colorfield</td>
+    <td>0.11.0</td>
+  </tr>
+  <tr>
+    <td>ngrok</td>
+    <td>1.2.0</td>
+  </tr>
+  <tr>
+    <td>pillow</td>
+    <td>10.2.0</td>
+  </tr>
+  <tr>
+    <td>python-dotenv</td>
+    <td>1.0.1</td>
+  </tr>
+  <tr>
+    <td>python-slugify</td>
+    <td>8.0.4</td>
+  </tr>
+  <tr>
+    <td>sqlparse</td>
+    <td>0.4.4</td>
+  </tr>
+  <tr>
+    <td>text-unidecode</td>
+    <td>1.3</td>
+  </tr>
+</table>
+
 
 ---
 Gustavo Colmenares | GUScode.-
