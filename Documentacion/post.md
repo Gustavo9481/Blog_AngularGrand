@@ -29,17 +29,32 @@ La sección para agregar nuevos Post(artículo) cuenta con el editor de texto en
 tal cual será publicado, permitiendo dar estilos al texto, ingresar iconos, emoticonos, tablas,
 líneas, etc.
 
+<div style="text-align:center">
+<img src="./doc-img/formulario_panel_1.png.png" alt="formulario Post 1ra parte" width="700"/>
+</div>
 **<imagen de formulario Post del panel>**
 
 * Etiqueta: temas opcionales (fotografía - budismo).
 * Título: nombre del artículo.
 * Introducción: breve antesala al artículo (máx 200 carácteres).
+
+
+<div style="text-align:center">
+<img src="./doc-img/formulario_panel_2.png.png" alt="formulario Post 2da parte" width="700"/>
+</div>
 * Contenido: extensión del artículo -> ckeditor.
+
+
+<div style="text-align:center">
+<img src="./doc-img/formulario_panel_3.png.png" alt="formulario Post 3ra parte" width="700"/>
+</div>
 * Portada: imagen de presentación del post -> carga de archivo .webp.
-* Video: link de video referente al artículo o material complementario.
-* Podcast: audio referente o material complementario del artículo.
+* Video: link de video referente al artículo o material complementario.(campo opcional)
+* Podcast: audio referente o material complementario del artículo. (campo opcional)
 * Autor: nombre del creador del artículo.
 * Fecha: fecha de creación -> se genera automáticamente.
+
+Para guardar los cambios y publicar el artículo, presionamos **Guardar**.
 
 
 
