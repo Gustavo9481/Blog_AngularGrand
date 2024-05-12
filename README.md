@@ -16,7 +16,7 @@ Aplicación web de Blog elaborada bajo el framewok de Python Django
 
 
 <div style="text-align:center">
-<img src="Proyecto_Blog/App_Core/static/App_Core/img/AG-logo.svg" alt="Logo Agular Grand" width="300" hight="300"/>
+<img src="./Documentacion/doc-img/AG_poster.webp" alt="Logo Agular Grand" width="300" hight="300"/>
 </div>
 
 <br>
