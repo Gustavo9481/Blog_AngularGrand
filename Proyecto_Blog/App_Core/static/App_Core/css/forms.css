@@ -45,7 +45,7 @@ label {
 /* ---------------------------------------------------- formulario Contacto 󰌜 */
 .forms-contacto {
     width: 100vw;
-    height: 50vh;
+    /*height: 50vh;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -62,10 +62,10 @@ label {
 }
 
 .forms-cont-left {
-    margin: 1em auto 2em;
+    margin: 3rem auto;
     width: 100%;
     height: 60%;
-    padding: 1em 3em;
+    padding: 0.5em 3em;
     border-radius: 0.5em;
     text-align: center;
 
@@ -78,7 +78,7 @@ label {
 .forms-cont-titulo {
 
     font-size: 1.5em;
-    margin-top: 1em;
+    margin-top: 3rem;
 }
 
 .forms-cont-left-button {
