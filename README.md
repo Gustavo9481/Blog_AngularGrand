@@ -90,6 +90,6 @@ con la narrativa de viajes y la introspección del budismo.
 <div align="center">
     <span style="font-size: 12px;">Creador por 🠮 Gustavo Colmenares | 
         <a href='https://gustavo9481.github.io/Portafolio/' target="_blank" class="autor__a">GUScode</a>
-        | © Todos los derechos reservados | [licencia](./LICENSE.md)
+        <em>| © Todos los derechos reservados | [licencia](LICENSE.md)</em>
     </span>
 </div>
