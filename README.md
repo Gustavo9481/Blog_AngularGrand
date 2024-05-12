@@ -83,6 +83,9 @@ con la narrativa de viajes y la introspección del budismo.
 </table>
 
 
+## licencia
+[MIT](./LICENSE.md)
+<br>
 ---
 <br>
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://gustavo9481.github.io/Portafolio/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/gustavo-colmenares-guscode//)  
@@ -90,6 +93,6 @@ con la narrativa de viajes y la introspección del budismo.
 <div align="center">
     <span style="font-size: 12px;">Creador por 🠮 Gustavo Colmenares | 
         <a href='https://gustavo9481.github.io/Portafolio/' target="_blank" class="autor__a">GUScode</a>
-        <em>| © Todos los derechos reservados | [licencia](LICENSE.md)</em>
-    </span>
+        © Todos los derechos reservados</span>
 </div>
+
