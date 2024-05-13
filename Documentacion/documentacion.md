@@ -1,8 +1,8 @@
 # Documentación 
 [volver a home](../README.md)
 
-La aplicación es un Blog básico deonde el Autor(propietario) puede cargar artículos(post), 
-gestionarlos(crud) y recibir visitas. También puede mostrar un perfil prefesional y fptpgrafías
+La aplicación es un Blog básico donde el Autor(propietario) puede cargar artículos(post), 
+gestionarlos(crud) y recibir visitas. También puede mostrar un perfil prefesional y fotpgrafías
 de su portafolio.
 
 <br>
@@ -111,20 +111,22 @@ def home(request: HttpRequest) -> HttpResponse:
 * articulo: Muestra el contenido del artículo seleccionado, así como los comentarios de los visitantes
 
 
-Para acceder añ Panel Administrativo se usa la dirección por defecto otorgada por Django:
+Para acceder al Panel Administrativo se usa la dirección por defecto otorgada por Django:
 `/admin`, ingresando las credenciales del superusuario creado por la instrucción:
 ```
 python manage.py createsuperuser
 ```
 
 El código posee líneas identificadas con comentarios numerados `# 🠶 01` que no son más que comentarios de 
-apollo al desarrollador. Para consultarlos visitar [ïndice de Comentarios](./comentarios.md)
+apoyo al desarrollador. Para consultarlos visitar [Índice de Comentarios](./comentarios.md).
+Estos contienen información detallada de cómo funcionan secciones y líneas de código.
     
 
 
 [volver a home](../README.md)
 
 <br>
+<div align="center">
     <span style="font-size: 12px;">Creador por 🠮 Gustavo Colmenares | 
         <a href='https://gustavo9481.github.io/Portafolio/' target="_blank" class="autor__a">GUScode</a>
         © Todos los derechos reservados</span>
