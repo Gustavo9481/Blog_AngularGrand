@@ -37,7 +37,6 @@ con la narrativa de viajes y la introspección del budismo.
 ## Instrucciones y Documentación
 * [Crear nuevos Post o Artículos](./Documentacion/post.md)
 * [Documentación](./Documentacion/documentacion.md)
-* [Índice de Comentarios del código](./Documentacion/comentarios.md)
 
 ## Requerimientos
 <table>

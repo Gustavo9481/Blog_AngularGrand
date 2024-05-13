@@ -78,3 +78,10 @@ Estilos generales, fuentes, variables globales, reset css, paleta de colores
 
 
 [volver a home](../README.md)
+<br>
+<div align="center">
+    <span style="font-size: 12px;">Creador por 🠮 Gustavo Colmenares | 
+        <a href='https://gustavo9481.github.io/Portafolio/' target="_blank" class="autor__a">GUScode</a>
+        © Todos los derechos reservados</span>
+</div>
+
