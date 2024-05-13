@@ -6,7 +6,7 @@ de su portafolio.
 
 <br>
 <div style="text-align:center">
-<img src="./Documentacion/doc-img/diagrama.png" alt="Logo Agular Grand" width="1000"/>
+<img src="./doc-img/diagrama.png" alt="Logo Agular Grand" width="1000"/>
 </div>
 <br>
 
