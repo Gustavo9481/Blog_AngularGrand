@@ -34,10 +34,12 @@ con la narrativa de viajes y la introspección del budismo.
 * Panel Administrativo para la gestión de todo el contenido del Blog.
 
 <br>
+<div align="center"> 
 <iframe width="560" height="315" 
     src="https://www.youtube.com/embed/wVdeDXIvbCc?si=ElIglCWTO6n9keZW" title="YouTube video player" 
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
+</div>
 <br>
 ## Instrucciones y Documentación
 * [Crear nuevos Post o Artículos](./Documentacion/post.md)
