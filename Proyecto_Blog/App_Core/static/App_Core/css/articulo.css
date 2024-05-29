@@ -82,13 +82,13 @@
 
 /* to-do🢂 agregar endpoints de mediaquerys */
 /* ................. mediaquerys | pantallas smartphones .................. 󰌜 */
-@media (width < 400px) {
+@media (width < 884px) {
     
     .articulo-r { display: none; }
 
     .articulo-l { width: 100%; }
 
-    .articulo-l-post { margin-inline: 1rem; }
+    .articulo-l-post { margin-inline: 10%; }
  
     .articulo-l-post__media-bx { width: 100%; }
 

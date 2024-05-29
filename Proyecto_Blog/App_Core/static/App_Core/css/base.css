@@ -6,12 +6,12 @@
 
 .base__title {
     font-size: 2rem;
-    margin: 2rem 8.6rem;
+    margin: 2rem 10%;
 }
 
 
 .base__parrafo {
-    margin: 2rem 8.6rem;
+    margin: 2rem 10%;
 }
 
 .base-mn {
@@ -136,7 +136,11 @@
 
 /* to-do🢂 agregar endponits de mediaquerys */
 /* ................. mediaquerys | pantallas smartphones .................. 󰌜 */
-@media (width < 400px) {
+@media (width < 884px) {
+    
+    .base__parrafo, .base__title {}
+
+    .base-mn { height: 5rem; }
 
     .base-mn-tp { display: none; }
     

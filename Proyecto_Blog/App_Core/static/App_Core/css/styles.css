@@ -37,13 +37,13 @@
 :root {
 
     /* paleta de colores */
-    --color-1: lch(100 0 0);                        /* blanco         #ffffff */
-    --color-2: lch(90.59 0 0);                      /* gris claro     #E4E4E4 */
-    --color-3: lch(25.23 7.71 286.6);               /* grafito        #3B3B47 */
-    --color-4: lch(0 0 0);                          /* negro          #000000 */
-    --color-5: lch(54.18 34.35 201.29);             /* verde viridian #009196 */
-    --color-6: lch(43.52 72.04 28.07);              /* frambuesa      #C51D34 */
-    --color-7: lch(46.74 42.1 309.58);              /* jacinto        #865FA6 */
+    --color-1: #FFFFFF;                             /* blanco         #ffffff */
+    --color-2: #E4E4E4;                             /* gris claro     #E4E4E4 */
+    --color-3: #3B3B47;                             /* grafito        #3B3B47 */
+    --color-4: #000000;                             /* negro          #000000 */
+    --color-5: #009196;                             /* verde viridian #009196 */
+    --color-6: #C51D34;                             /* frambuesa      #C51D34 */
+    --color-7: #865FA6;                             /* jacinto        #865FA6 */
     --opacidad-1: 0.5;
     --opacidad-2: 0.6;
 
@@ -191,7 +191,7 @@ svg {
 
 /* to-do🢂 agregar endpoints de mediaquerys */
 /* ------------------------------------ mediaquerys | smartphones y tablets 󰌜 */
-@media screen and (max-width: 600px) {
+@media (width < 884px) {
     body {
         padding-top: 3.5rem;
     }

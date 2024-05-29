@@ -48,6 +48,12 @@
                         Contáctame
                     </a>
 
+                    <a href="{% url 'ADMIN' %}" 
+                        class="base-mn-tpbx__a {% if request.path == '/admin/' %}current{% endif %}">
+                        <img src="{% static 'App_Core/img/admin.svg' %}">
+                    </a>
+
+
                 </div>
 
             </div>

@@ -3,7 +3,8 @@ from django.core.paginator import Paginator
 from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse
 from .forms import ComentarioForm, ContactoForm
-from .models import Comentario, Post
+from .services import Post_Service, Comentario_Service  
+from django.contrib.auth.decorators import login_required
 
 # ............................. App Core | views ............................. 󰌠
 # consulta de comentarios: Proyecto_Blog/comentarios.md
@@ -22,7 +23,7 @@ def home(request: HttpRequest) -> HttpResponse:
     HttpResponse: respuesta HTTP que renderiza página principal.
     '''
 
-    posts = Post.objects.all().order_by('-fecha')                         # 🠶 01
+    posts = Post_Service.post_order_by_date() 
     paginador = Paginator(posts, 6)                                       # 🠶 02
     numero_pagina = request.GET.get('page')                               # 🠶 03
     page_obj = paginador.get_page(numero_pagina)                          # 🠶 04
@@ -45,7 +46,7 @@ def articulos_all(request: HttpRequest) -> HttpResponse:
     con la paginación correspondiente.
     '''
 
-    posts = Post.objects.all().order_by('-fecha')                         # 🠶 01
+    posts = Post_Service.post_order_by_date()
     paginador = Paginator(posts, 9)                                       # 🠶 02
     numero_pagina = request.GET.get('page')                               # 🠶 03
     page_obj = paginador.get_page(numero_pagina)                          # 🠶 04
@@ -110,10 +111,10 @@ def articulo(request: HttpRequest, titulo: str) -> HttpResponse:
     Returns:
     HttpResponse: respuesta HTTP que renderiza la información del artículo.
     '''
-
-    posts_list = Post.objects.all().order_by('-fecha')                    # 🠶 01
-    post_art = Post.objects.get(titulo = titulo)                          # 🠶 06
-    comentarios = Comentario.objects.filter(art_relacionado = titulo)     # 🠶 07
+    
+    posts_list = Post_Service.post_order_by_date()
+    post_art = Post_Service.post_filter_by_title(titulo)
+    comentarios = Comentario_Service.comment_filter_by_art_title(titulo)
     
     data: Dict = {
         "post": post_art, 
@@ -133,5 +134,21 @@ def articulo(request: HttpRequest, titulo: str) -> HttpResponse:
 
     return render(request, 'App_Core/articulo.html', data)
 
+
+
+# ---------------------------------------------------------------- vista | admin
+@login_required
+def administrador(request: HttpRequest) -> HttpResponse:
+    '''
+    Acceso al Panel Administrativo, credenciales necesarias.
+
+    Parameters:
+    request (HttpRequest): solicitud HTTP recibida.
+
+    Returns:
+    HttpResponse: respuesta HTTP que renderiza el Panel Administrativo Django.
+    '''
+    
+    return redirect("/admin/")
 
 # help(home)                                                              # 🠶 09

@@ -80,7 +80,7 @@
 }
 
 .intro {
-    margin: 2rem 8.6rem;
+    margin: 2rem 10%;
 }
 
 .intro__title {
@@ -103,13 +103,11 @@
 
 /* to-do🢂 agregar endpoints de mediaquerys */
 /* ............................. mediaquerys .............................. 󰌜 */
-@media screen and (max-width: 600px) {
-
-    .intro { margin: 1rem 1rem;}
+@media (width < 884px) {
 
     .intro__signature { font-size: 2rem; text-align: center; }
 
-    .home-sld { margin-top: 0; }
+    .home-sld { margin-top: 0; height: 50vh; }
 
     .home-sld-bx1__img { display: none; }
 

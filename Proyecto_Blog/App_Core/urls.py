@@ -14,6 +14,7 @@ urlpatterns = [
         path('articulos_all/', views.articulos_all, name="ARTICULOS_ALL"),
         path('contacto/', views.contacto, name="CONTACTO"),
         path('sobre-mi/', views.sobre_mi, name="SOBRE-MI"),
+        path('admin/', views.administrador, name="ADMIN"),
 ]
 
 if settings.DEBUG:                                                        # 🠶 01

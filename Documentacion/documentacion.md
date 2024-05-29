@@ -1,9 +1,95 @@
 # Documentación 
 [volver a home](../README.md)
 
-La aplicación es un Blog básico donde el Autor(propietario) puede cargar artículos(post), 
-gestionarlos(crud) y recibir visitas. También puede mostrar un perfil prefesional y fotpgrafías
-de su portafolio.
+                     <p><strong>Lenguaje de Programación Principal:</strong></p>
+                    <ul><li>* Python</li></ul><br>
+                    <p>Framework:</p>
+                    <ul><li>* Django</li></ul><br>
+                    
+                    <h2 class="sub-titulo__h2">Backend</h2><br>
+                    <p>Base de Datos:</p>
+                    <p>SQLite (por defecto, para desarrollo)<br>
+                        Posibilidad de usar PostgreSQL o MySQL para producción</p><br>
+
+                    Modelos:
+
+Modelo para Post: incluye campos como título, contenido, fecha de publicación, autor y estado (borrador o publicado).
+Modelo para Comentarios: incluye campos como nombre del comentarista, correo electrónico, contenido del comentario, fecha de creación y referencia al post relacionado.
+Modelo para Categorías y Etiquetas (opcional): permite clasificar y etiquetar posts.
+Autenticación y Autorización:
+
+Sistema de autenticación de Django para administración de usuarios.
+Posibilidad de crear diferentes roles de usuario (admin, autor, lector).
+Administración:
+
+Interfaz de administración de Django para gestionar posts, comentarios, categorías y usuarios.
+Frontend
+Plantillas:
+
+Uso del motor de plantillas de Django (Django Templates).
+Plantillas para páginas de listado de posts, detalle de post, formulario de comentario, página de categorías, etc.
+Estilos y Diseño:
+
+HTML5 y CSS3.
+Framework CSS como Bootstrap para diseño responsivo (opcional).
+Funcionalidades del Blog
+Publicación de Posts:
+
+Crear, editar y eliminar posts desde la interfaz de administración.
+Programar publicaciones futuras.
+Comentarios:
+
+Formulario para que los usuarios dejen comentarios en los posts.
+Moderación de comentarios (aprobar o rechazar desde la administración).
+Clasificación y Etiquetado:
+
+Sistema de categorías para agrupar posts similares.
+Etiquetas para una mejor indexación y búsqueda.
+Búsqueda:
+
+Funcionalidad de búsqueda para encontrar posts por título o contenido.
+Paginación:
+
+Paginación de listas de posts para mejorar la navegación.
+Feeds RSS:
+
+Generación de feeds RSS para que los usuarios se suscriban a las actualizaciones del blog.
+Seguridad
+Protección contra CSRF:
+
+Uso del middleware CSRF de Django para proteger contra ataques de falsificación de solicitud entre sitios.
+Validación y Saneamiento de Entradas:
+
+Validación de datos en formularios y saneamiento para evitar inyección de código.
+Autenticación:
+
+Seguridad en el manejo de contraseñas y autenticación de usuarios.
+Despliegue
+Servidor de Aplicaciones:
+
+Gunicorn o uWSGI para servir la aplicación en producción.
+Servidor Web:
+
+Nginx o Apache como servidor web frontend.
+Despliegue en la Nube:
+
+Opciones para desplegar en plataformas como Heroku, AWS, DigitalOcean, etc.
+Gestión de Archivos Estáticos y Media:
+
+Configuración para servir archivos estáticos y de medios en producción (por ejemplo, usando Amazon S3).
+Desarrollo y Mantenimiento
+Control de Versiones:
+
+Uso de Git para control de versiones del código.
+Entorno Virtual:
+
+Uso de entornos virtuales (virtualenv o venv) para gestionar dependencias de Python.
+Pruebas:
+
+Tests unitarios y de integración usando el framework de pruebas de Django.
+Documentación:
+
+Documentación del proyecto y del código para facilitar el mantenimiento y la colaboración.
 
 <br>
 <div style="text-align:center">

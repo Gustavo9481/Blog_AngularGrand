@@ -17,11 +17,6 @@
 
 `views.py` 
 Funciones de vistas de aplicación
-* 🠶 01 - solicitud a BD de los artículos ordenados por fecha (reciente -> antiguo).
-    * métodos para obtener datos de las tablas Post y Comentarios:
-        * objects.get(@): unico registro con el filtro @
-        * objects.filter(@): filtro de registros @
-        * objects.all(): trae todos los registros
 * 🠶 02 - paginación de los artículos stx: Paginador(<01>, <n° de paǵinas>).
 * 🠶 03 - obtención de la página actual del total de los artículos.
 * 🠶 04 - aplicación del paginador.
@@ -48,6 +43,16 @@ modelos de tablas Post - Contacto - Comentarios
 * 🠶 03 - implementación de editor de texto enriquecido para contenido de artículos.
 * 🠶 04 - Carga de imagenes a las tablas, las propiedades blank y null hacen opcionales las respuestas en los formularios.
 * 🠶 05 - propiedad editable -> permite un campo oculto en el formulario html.
+
+
+
+`services.py`
+obtención de data - patrón **Service Layer**
+* 🠶 01 - solicitud a BD de los artículos ordenados por fecha (reciente -> antiguo).
+    * métodos para obtener datos de las tablas Post y Comentarios:
+        * objects.get(@): unico registro con el filtro @
+        * objects.filter(@): filtro de registros @
+        * objects.all(): trae todos los registros
 
 
 
